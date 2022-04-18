@@ -48,7 +48,7 @@ video {
     z-index: -1;
   }
 
-  h1{
+  .enter h1, .intro h1, .about h1{
       font-family: 'Cedarville Cursive', cursive;
       font-size: 45px;
       z-index: 1;
@@ -60,21 +60,21 @@ video {
 
   .enter button{
     font-family: 'Lato', sans-serif;
-    border: solid white 2px ;
+    border: solid black 2px ;
     border-radius: 20px;
     background-color: transparent;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
 
+    /* margin-top: 10%; */
     margin-left: 45%;
   }
 
   .enter a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 
   /* Home Page */
