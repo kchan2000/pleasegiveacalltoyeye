@@ -25,6 +25,11 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
+nav a:active{
+  border-bottom: 1px dashed #787878;
+  padding-bottom: 5px;
+}
+
 #leftBtn{
     margin-left: 20px;
     float: left;
@@ -149,6 +154,9 @@ video {
     padding-bottom: 45px;
   }
 
+  #second {
+    padding-top: 40px;
+  }
 
 /* MODAL VIDEO BOXES */
   .modal {
