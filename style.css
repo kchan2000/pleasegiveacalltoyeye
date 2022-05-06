@@ -30,6 +30,11 @@ nav a:hover {
     float: left;
 }
 
+#leftmidBtn{
+  margin-left: 10px;
+}
+
+
 #middleBtn{
   margin-left: 60px;
 }
@@ -109,9 +114,11 @@ video {
   }
 
   .call-logs img{
-    margin-left: 25% ;
-    width: 50%;
-    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding:20px;
 
   }
 
@@ -179,3 +186,5 @@ video {
     text-decoration: none;
     cursor: pointer;
     }
+
+    /* MEDIA QUERIES */
