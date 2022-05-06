@@ -179,3 +179,17 @@ video {
     text-decoration: none;
     cursor: pointer;
     }
+
+    @media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+      .enter h1{
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 70px;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 400px;
+      }
+
+
+    }
